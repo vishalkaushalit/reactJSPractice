@@ -25,8 +25,6 @@ export const fetchDataWithPagination = async (pageNumber) => {
 };
 
 // delete the data
-
 export const deleteData = (id) => {
-    return api.delete(`https://picsum.photos/id/${id}/info`);
-}
-
+  return api.delete(`https://picsum.photos/id/${id}/info`);
+};
