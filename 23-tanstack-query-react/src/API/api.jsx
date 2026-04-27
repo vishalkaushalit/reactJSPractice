@@ -28,3 +28,10 @@ export const fetchDataWithPagination = async (pageNumber) => {
 export const deleteData = (id) => {
   return api.delete(`https://picsum.photos/id/${id}/info`);
 };
+
+// update the data
+export const updateData = (id) => {
+  return api.patch(`https://picsum.photos/id/${id}/info`, {
+    author: "Hello World",
+  });
+};

@@ -3,4 +3,5 @@ export const ROUTES = {
   DATAWITHSEARCH: "/data-with-search",
   DATAWITHPAGINATION: "/data-with-pagination",
   DELETEMUTATION: "/delete-mutation",
+  UPDATEMUTATION: "/update-mutation",
 };

@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import DataWithSearch from "./pages/DataWithSearch";
 import DataWithPagination from "./pages/DataWithPagination";
 import DeleteMutation from "./pages/DeleteMutation";
+import UpdateMutation from "./pages/UpdateMutation";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path={ROUTES.DATAWITHSEARCH} element={<DataWithSearch />} />
         <Route path={ROUTES.DATAWITHPAGINATION} element={<DataWithPagination />} />
         <Route path={ROUTES.DELETEMUTATION} element={<DeleteMutation />} />
+        <Route path={ROUTES.UPDATEMUTATION} element={<UpdateMutation />} />
       </Routes>
     </BrowserRouter>
   );
